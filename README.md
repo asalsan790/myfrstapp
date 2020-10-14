@@ -4,12 +4,29 @@
 https://www.youtube.com/watch?v=AR1tLGQ7COs&feature=emb_logo
 
 # Instalacion de Angular pasos
+Trabajamos con google chrome
+Instalar visual studio code
+Instalar nodejs
+Instalar git
+Puede ser práctico deshabilitar credential helper
+Angular lo instalamos con: https://cli.angular.io/
+
+Según aparece en la web anterior:
+
+npm install -g @angular/cli
+ng new my-dream-app  // Crea el nuevo proyecto Angular
+cd my-dream-app
+ng serve
+
 *npm install -g @angular/cli*
+Esto no crea un proyecto de Angular pero sí una herramienta 
+que genera proyectos de Angular (ng)
+
 *ng serve*
 http://localhost:4200/
 
 
-
+# a partir de aquí generado con la instalación
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
 
 ## Development server
