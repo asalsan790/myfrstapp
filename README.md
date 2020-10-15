@@ -22,8 +22,24 @@ ng serve
 Esto no crea un proyecto de Angular pero sí una herramienta 
 que genera proyectos de Angular (ng)
 
-*ng serve*
+*ng serve*  // Crea el servidor de desarrollo
 http://localhost:4200/
+
+Si quiero crear un componente:
+ng generate component hola-mundo
+
+PS C:\Users\Administrador\Documents\adolfo\AA_ProGit\angular001\myfirstapp> ng g component hola-mundo
+CREATE src/app/hola-mundo/hola-mundo.component.html (25 bytes)
+CREATE src/app/hola-mundo/hola-mundo.component.spec.ts (648 bytes)
+CREATE src/app/hola-mundo/hola-mundo.component.ts (290 bytes)
+CREATE src/app/hola-mundo/hola-mundo.component.css (0 bytes)
+UPDATE src/app/app.module.ts (491 bytes)
+PS C:\Users\Administrador\Documents\adolfo\AA_ProGit\angular001\myfirstapp>
+
+En app.component.html escribimos solo la línea:
+
+  <app-hola-mundo></app-hola-mundo>  
+
 
 
 # a partir de aquí generado con la instalación
